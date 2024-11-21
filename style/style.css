@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin-bottom: 2%;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+
+
+}
+body{
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+.logo{
+    width: 15%;
+    float: right;
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 10%;
+
+}
+.title{
+    font-family: Georgia, sans-serif;
+    text-align: left;
+    color: black;
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+button{
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+}
+.proj{
+    font-family: Georgia, sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-weight: bold;
+}
+
+.btn{
+    width: 35%;
+    white-space: normal;
+    display: block;
+    margin-bottom: .5%;
+}
+
+.link{
+    text-decoration: none;
+}
+.portrait{
+    height: 90%;
+    width: 90%;
+}
+.desc{
+    font-family: Georgia, sans-serif;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.bio{
+    font-family: Georgia, sans-serif;
+    text-align: left;
+    font-size: 16pt;
+    text-decoration: none;
+    margin-top: 10%;
+}
+
+.bar{
+    font-family: Georgia, sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin-bottom: 3%;
+
+}
+
+.columnl{
+    position: relative;
+    float: left;
+    width: 25%;
+    margin-left: 8%;
+    text-align: left;
+    #outline: 3px solid black;
+    #border-radius: 3pt;
+    margin-top: 3%;
+
+.columnr{
+    position: relative;
+    float: left;
+    width: 35%;
+
+}
+}
+.columnm{
+    position: relative;
+    float: left;
+    width: 25%;
+    text-align: left;
+    margin-right: 5%;
+
+}
+.columnr a:hover{
+    background: #3374C2;
+}
+.columnl a:hover{
+    background: #3374C2;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 2%;
+
+
+}
+
+
+
